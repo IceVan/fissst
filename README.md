@@ -18,3 +18,4 @@ Lista pakietów:
 Poszczególne pakiety podzielone są na warstwy klasTransferowych, kontrolera, serwisów i dao. 
 
 Mam nadzieję że niczego nie przeoczyłem.
+Link do swaggera https://cryptic-mesa-47256.herokuapp.com/swagger-ui.html#/
