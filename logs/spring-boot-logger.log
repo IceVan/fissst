@@ -1,0 +1,222 @@
+2020-06-23 11:46:21,536 INFO org.springframework.boot.SpringApplicationBannerPrinter [main] 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+
+2020-06-23 11:46:21,619 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication on DESKTOP-TTRLVNL with PID 9152 (F:\Projekty\praca\demo\target\classes started by Ice in F:\Projekty\praca\demo)
+2020-06-23 11:46:21,619 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-23 11:46:21,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-06-23 11:46:22,630 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 11:46:22,654 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2020-06-23 11:46:23,374 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-06-23 11:46:23,385 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 11:46:23,385 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-06-23 11:46:23,385 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 11:46:23,508 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-06-23 11:46:23,508 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1826 ms
+2020-06-23 11:46:23,756 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 11:46:23,798 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 11:46:23,837 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 11:46:23,956 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 11:46:24,038 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-06-23 11:46:24,103 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-23 11:46:24,313 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-23 11:46:24,398 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 11:46:25,520 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-06-23 11:46:25,533 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-23 11:46:30,358 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 11:46:30,378 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 11:46:30,442 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 11:46:30,461 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 11:46:30,461 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-06-23 11:46:30,477 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-06-23 11:46:30,499 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-06-23 11:46:30,633 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_1
+2020-06-23 11:46:30,636 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_2
+2020-06-23 11:46:30,638 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingDELETE_1
+2020-06-23 11:46:30,639 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_3
+2020-06-23 11:46:30,640 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_4
+2020-06-23 11:46:30,641 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_5
+2020-06-23 11:46:30,642 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_6
+2020-06-23 11:46:30,643 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_7
+2020-06-23 11:46:30,645 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_8
+2020-06-23 11:46:30,646 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_9
+2020-06-23 11:46:30,647 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_10
+2020-06-23 11:46:30,648 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_11
+2020-06-23 11:46:30,651 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_12
+2020-06-23 11:46:30,653 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_13
+2020-06-23 11:46:30,654 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_14
+2020-06-23 11:46:30,655 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_15
+2020-06-23 11:46:30,656 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_16
+2020-06-23 11:46:30,657 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_17
+2020-06-23 11:46:30,658 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_18
+2020-06-23 11:46:30,688 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-06-23 11:46:30,689 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-06-23 11:46:30,697 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.435 seconds (JVM running for 9.897)
+2020-06-23 11:46:33,840 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 11:46:33,840 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-06-23 11:46:33,850 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-06-23 11:46:33,950 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Execution of: Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) With params: [96] and UUID: b2e075f0-a9db-49ef-86f1-4d6e7d7e562b
+2020-06-23 11:46:33,954 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Execution of: Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) With params: [96] and UUID: 779003c8-0cf0-4d15-b95b-dac7d4634ae0
+2020-06-23 11:46:34,041 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select part0_.id as id1_3_, part0_.days_to_send as days_to_2_3_, part0_.in_stock as in_stock3_3_, part0_.part_info_id as part_inf5_3_, part0_.price as price4_3_ from tpr_part part0_ where part0_.id=?
+2020-06-23 11:46:34,307 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select partinfo0_.id as id1_4_0_, partinfo0_.description as descript2_4_0_, partinfo0_.model_id as model_id4_4_0_, partinfo0_.name as name3_4_0_ from tpr_part_info partinfo0_ where partinfo0_.id=?
+2020-06-23 11:46:34,460 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select serviceact0_.part_id as part_id5_6_0_, serviceact0_.id as id1_6_0_, serviceact0_.id as id1_6_1_, serviceact0_.name as name2_6_1_, serviceact0_.part_id as part_id5_6_1_, serviceact0_.serviced_since as serviced3_6_1_, serviceact0_.serviced_until as serviced4_6_1_ from tsr_service_action serviceact0_ where serviceact0_.part_id=?
+2020-06-23 11:46:34,593 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select salespitch0_.part_id as part_id4_5_0_, salespitch0_.id as id1_5_0_, salespitch0_.id as id1_5_1_, salespitch0_.description as descript2_5_1_, salespitch0_.name as name3_5_1_, salespitch0_.part_id as part_id4_5_1_ from tsa_sales_pitch salespitch0_ where salespitch0_.part_id=?
+2020-06-23 11:46:34,722 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Result of function Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) with uuid 779003c8-0cf0-4d15-b95b-dac7d4634ae0 : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 11:46:34,723 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Result of function Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) with uuid b2e075f0-a9db-49ef-86f1-4d6e7d7e562b : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 13:14:59,357 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m3s752ms295µs300ns).
+2020-06-23 13:39:06,290 INFO org.springframework.boot.SpringApplicationBannerPrinter [main] 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+
+2020-06-23 13:39:06,354 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication on DESKTOP-TTRLVNL with PID 3908 (F:\Projekty\praca\demo\target\classes started by Ice in F:\Projekty\praca\demo)
+2020-06-23 13:39:06,355 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-23 13:39:06,357 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-06-23 13:39:07,439 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 13:39:07,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23ms. Found 0 JPA repository interfaces.
+2020-06-23 13:39:08,206 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-06-23 13:39:08,215 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 13:39:08,216 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-06-23 13:39:08,216 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 13:39:08,334 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-06-23 13:39:08,334 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1946 ms
+2020-06-23 13:39:08,590 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 13:39:08,637 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 13:39:08,711 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 13:39:08,855 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 13:39:08,945 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-06-23 13:39:08,952 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-23 13:39:09,159 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-23 13:39:09,244 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 13:39:10,505 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-06-23 13:39:10,534 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-23 13:39:15,530 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 13:39:15,536 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 13:39:15,603 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 13:39:15,627 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 13:39:15,628 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-06-23 13:39:15,670 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-06-23 13:39:15,697 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-06-23 13:39:15,864 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_1
+2020-06-23 13:39:15,866 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_2
+2020-06-23 13:39:15,867 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingDELETE_1
+2020-06-23 13:39:15,868 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_3
+2020-06-23 13:39:15,870 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_4
+2020-06-23 13:39:15,871 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_5
+2020-06-23 13:39:15,874 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_6
+2020-06-23 13:39:15,875 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_7
+2020-06-23 13:39:15,877 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_8
+2020-06-23 13:39:15,878 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_9
+2020-06-23 13:39:15,879 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_10
+2020-06-23 13:39:15,881 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_11
+2020-06-23 13:39:15,883 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_12
+2020-06-23 13:39:15,884 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_13
+2020-06-23 13:39:15,885 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_14
+2020-06-23 13:39:15,886 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_15
+2020-06-23 13:39:15,887 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_16
+2020-06-23 13:39:15,888 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_17
+2020-06-23 13:39:15,889 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_18
+2020-06-23 13:39:15,919 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-06-23 13:39:15,919 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-06-23 13:39:15,928 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.917 seconds (JVM running for 10.444)
+2020-06-23 13:39:23,590 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 13:39:23,590 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-06-23 13:39:23,603 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2020-06-23 13:39:23,699 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Execution of: Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) With params: [96] and UUID: f23662a3-149f-4fbb-bfda-4b940cb96679
+2020-06-23 13:39:23,701 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Execution of: Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) With params: [96] and UUID: 16039dcb-6be9-4287-8858-8dd1184b3f44
+2020-06-23 13:39:23,797 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select part0_.id as id1_3_, part0_.days_to_send as days_to_2_3_, part0_.in_stock as in_stock3_3_, part0_.part_info_id as part_inf5_3_, part0_.price as price4_3_ from tpr_part part0_ where part0_.id=?
+2020-06-23 13:39:24,066 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select partinfo0_.id as id1_4_0_, partinfo0_.description as descript2_4_0_, partinfo0_.model_id as model_id4_4_0_, partinfo0_.name as name3_4_0_ from tpr_part_info partinfo0_ where partinfo0_.id=?
+2020-06-23 13:39:24,234 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select serviceact0_.part_id as part_id5_6_0_, serviceact0_.id as id1_6_0_, serviceact0_.id as id1_6_1_, serviceact0_.name as name2_6_1_, serviceact0_.part_id as part_id5_6_1_, serviceact0_.serviced_since as serviced3_6_1_, serviceact0_.serviced_until as serviced4_6_1_ from tsr_service_action serviceact0_ where serviceact0_.part_id=?
+2020-06-23 13:39:24,364 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-1] select salespitch0_.part_id as part_id4_5_0_, salespitch0_.id as id1_5_0_, salespitch0_.id as id1_5_1_, salespitch0_.description as descript2_5_1_, salespitch0_.name as name3_5_1_, salespitch0_.part_id as part_id4_5_1_ from tsa_sales_pitch salespitch0_ where salespitch0_.part_id=?
+2020-06-23 13:39:24,490 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Result of function Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) with uuid 16039dcb-6be9-4287-8858-8dd1184b3f44 : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 13:39:24,491 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-1] Result of function Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) with uuid f23662a3-149f-4fbb-bfda-4b940cb96679 : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 13:45:30,447 INFO org.springframework.boot.SpringApplicationBannerPrinter [main] 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+
+2020-06-23 13:45:30,564 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication on DESKTOP-TTRLVNL with PID 17356 (F:\Projekty\praca\demo\target\classes started by Ice in F:\Projekty\praca\demo)
+2020-06-23 13:45:30,564 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-23 13:45:30,565 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-06-23 13:45:31,600 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-23 13:45:31,625 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18ms. Found 0 JPA repository interfaces.
+2020-06-23 13:45:32,323 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-06-23 13:45:32,332 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-23 13:45:32,332 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-06-23 13:45:32,332 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-23 13:45:32,441 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-06-23 13:45:32,441 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1823 ms
+2020-06-23 13:45:32,696 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-23 13:45:32,734 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-23 13:45:32,776 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-06-23 13:45:32,903 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-23 13:45:32,982 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Starting...
+2020-06-23 13:45:33,043 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-23 13:45:33,257 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-06-23 13:45:33,347 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-23 13:45:34,478 INFO com.zaxxer.hikari.HikariDataSource [task-1] HikariPool-1 - Start completed.
+2020-06-23 13:45:34,491 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-06-23 13:45:39,343 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-23 13:45:39,349 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-23 13:45:39,408 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-06-23 13:45:39,427 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-23 13:45:39,428 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-06-23 13:45:39,445 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-06-23 13:45:39,469 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-06-23 13:45:39,607 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_1
+2020-06-23 13:45:39,610 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_2
+2020-06-23 13:45:39,613 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingDELETE_1
+2020-06-23 13:45:39,615 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_3
+2020-06-23 13:45:39,617 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_4
+2020-06-23 13:45:39,621 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_5
+2020-06-23 13:45:39,625 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_6
+2020-06-23 13:45:39,626 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_7
+2020-06-23 13:45:39,628 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_8
+2020-06-23 13:45:39,630 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_9
+2020-06-23 13:45:39,631 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_10
+2020-06-23 13:45:39,633 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_11
+2020-06-23 13:45:39,635 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_12
+2020-06-23 13:45:39,637 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_13
+2020-06-23 13:45:39,640 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_14
+2020-06-23 13:45:39,641 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_15
+2020-06-23 13:45:39,642 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_16
+2020-06-23 13:45:39,644 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_17
+2020-06-23 13:45:39,646 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: handleUsingGET_18
+2020-06-23 13:45:39,672 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-06-23 13:45:39,673 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-06-23 13:45:39,683 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 9.547 seconds (JVM running for 10.027)
+2020-06-23 13:45:50,882 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-23 13:45:50,882 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2020-06-23 13:45:50,893 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 11 ms
+2020-06-23 13:45:50,984 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-4] Execution of: Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) With params: [96] and UUID: 8905f974-f97d-4bd8-ad8a-9fd469772ed8
+2020-06-23 13:45:50,989 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-4] Execution of: Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) With params: [96] and UUID: 4ca99e6e-1bef-47d6-9dc8-7b2e3f96b7c1
+2020-06-23 13:45:51,074 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-4] select part0_.id as id1_3_, part0_.days_to_send as days_to_2_3_, part0_.in_stock as in_stock3_3_, part0_.part_info_id as part_inf5_3_, part0_.price as price4_3_ from tpr_part part0_ where part0_.id=?
+2020-06-23 13:45:51,374 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-4] select partinfo0_.id as id1_4_0_, partinfo0_.description as descript2_4_0_, partinfo0_.model_id as model_id4_4_0_, partinfo0_.name as name3_4_0_ from tpr_part_info partinfo0_ where partinfo0_.id=?
+2020-06-23 13:45:51,514 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-4] select serviceact0_.part_id as part_id5_6_0_, serviceact0_.id as id1_6_0_, serviceact0_.id as id1_6_1_, serviceact0_.name as name2_6_1_, serviceact0_.part_id as part_id5_6_1_, serviceact0_.serviced_since as serviced3_6_1_, serviceact0_.serviced_until as serviced4_6_1_ from tsr_service_action serviceact0_ where serviceact0_.part_id=?
+2020-06-23 13:45:51,647 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-4] select salespitch0_.part_id as part_id4_5_0_, salespitch0_.id as id1_5_0_, salespitch0_.id as id1_5_1_, salespitch0_.description as descript2_5_1_, salespitch0_.name as name3_5_1_, salespitch0_.part_id as part_id4_5_1_ from tsa_sales_pitch salespitch0_ where salespitch0_.part_id=?
+2020-06-23 13:45:51,776 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-4] Result of function Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) with uuid 4ca99e6e-1bef-47d6-9dc8-7b2e3f96b7c1 : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 13:45:51,777 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-4] Result of function Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) with uuid 8905f974-f97d-4bd8-ad8a-9fd469772ed8 : Part(id=96, serviceActions=[ServiceAction(id=216, name=Service, servicedSince=2006-01-01, servicedUntil=2008-01-01), ServiceAction(id=243, name=strssing, servicedSince=1998-12-01, servicedUntil=1999-01-01), ServiceAction(id=244, name=strsssing, servicedSince=1998-12-01, servicedUntil=1999-01-01)], salesPitches=[], price=2150.52, inStock=true, daysToSend=11)
+2020-06-23 13:45:56,138 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-3] Execution of: Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) With params: [69] and UUID: 9b6059eb-242e-42c2-8d65-1f7fc77f28a3
+2020-06-23 13:45:56,139 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-3] Execution of: Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) With params: [69] and UUID: 4da0c820-5f84-46c3-8ec2-72ac5fdc9196
+2020-06-23 13:45:56,139 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-3] select part0_.id as id1_3_, part0_.days_to_send as days_to_2_3_, part0_.in_stock as in_stock3_3_, part0_.part_info_id as part_inf5_3_, part0_.price as price4_3_ from tpr_part part0_ where part0_.id=?
+2020-06-23 13:45:56,392 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-3] select partinfo0_.id as id1_4_0_, partinfo0_.description as descript2_4_0_, partinfo0_.model_id as model_id4_4_0_, partinfo0_.name as name3_4_0_ from tpr_part_info partinfo0_ where partinfo0_.id=?
+2020-06-23 13:45:56,519 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-3] select serviceact0_.part_id as part_id5_6_0_, serviceact0_.id as id1_6_0_, serviceact0_.id as id1_6_1_, serviceact0_.name as name2_6_1_, serviceact0_.part_id as part_id5_6_1_, serviceact0_.serviced_since as serviced3_6_1_, serviceact0_.serviced_until as serviced4_6_1_ from tsr_service_action serviceact0_ where serviceact0_.part_id=?
+2020-06-23 13:45:56,650 DEBUG org.hibernate.engine.jdbc.spi.SqlStatementLogger [http-nio-8080-exec-3] select salespitch0_.part_id as part_id4_5_0_, salespitch0_.id as id1_5_0_, salespitch0_.id as id1_5_1_, salespitch0_.description as descript2_5_1_, salespitch0_.name as name3_5_1_, salespitch0_.part_id as part_id4_5_1_ from tsa_sales_pitch salespitch0_ where salespitch0_.part_id=?
+2020-06-23 13:45:56,778 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-3] Result of function Part pl.ice.fissst.demo.carparts.service.PartsListingServiceImpl.getPartForId(long) with uuid 4da0c820-5f84-46c3-8ec2-72ac5fdc9196 : Part(id=69, serviceActions=[ServiceAction(id=106, name=Service, servicedSince=1994-01-01, servicedUntil=1999-01-01), ServiceAction(id=107, name=Service, servicedSince=2000-01-01, servicedUntil=2017-01-01), ServiceAction(id=133, name=Service, servicedSince=2008-01-01, servicedUntil=2009-01-01), ServiceAction(id=134, name=Service, servicedSince=2007-01-01, servicedUntil=2009-01-01), ServiceAction(id=241, name=test service 1, servicedSince=1990-01-01, servicedUntil=1992-01-01), ServiceAction(id=242, name=test service 1, servicedSince=2020-01-01, servicedUntil=null)], salesPitches=[], price=200.50, inStock=true, daysToSend=10)
+2020-06-23 13:45:56,779 INFO pl.ice.fissst.demo.configuration.aspect.LoggingAspect [http-nio-8080-exec-3] Result of function Part pl.ice.fissst.demo.stock.service.StockListingServiceImpl.checkPartInStock(long) with uuid 9b6059eb-242e-42c2-8d65-1f7fc77f28a3 : Part(id=69, serviceActions=[ServiceAction(id=106, name=Service, servicedSince=1994-01-01, servicedUntil=1999-01-01), ServiceAction(id=107, name=Service, servicedSince=2000-01-01, servicedUntil=2017-01-01), ServiceAction(id=133, name=Service, servicedSince=2008-01-01, servicedUntil=2009-01-01), ServiceAction(id=134, name=Service, servicedSince=2007-01-01, servicedUntil=2009-01-01), ServiceAction(id=241, name=test service 1, servicedSince=1990-01-01, servicedUntil=1992-01-01), ServiceAction(id=242, name=test service 1, servicedSince=2020-01-01, servicedUntil=null)], salesPitches=[], price=200.50, inStock=true, daysToSend=10)

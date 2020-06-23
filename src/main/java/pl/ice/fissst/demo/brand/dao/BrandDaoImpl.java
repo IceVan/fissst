@@ -8,6 +8,11 @@ import pl.ice.fissst.demo.model.entity.Model;
 @Component
 public class BrandDaoImpl extends BrandDao {
 
+    /**
+     * Get Brand entity from DB based on brand name
+     * @param name  Brand name
+     * @return      Brand entity with given name
+     */
     @Override
     public Brand getBrandByName(String name) {
         Query query = getCurrentSession().createQuery("FROM pl.ice.fissst.demo.model.entity.Brand b " +

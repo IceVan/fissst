@@ -1,5 +1,6 @@
 package pl.ice.fissst.demo.configuration.aspect;
 
+import lombok.extern.apachecommons.CommonsLog;
 import lombok.extern.java.Log;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -10,17 +11,20 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.UUID;
 
-@Log
+@CommonsLog
 @Aspect
 @Component
 public class LoggingAspect {
 
+    //Pointcut for public methods
     @Pointcut("execution(public * *(..))")
     private void anyPublicOperation() {}
 
+    //Pointcut for @Service annotation
     @Pointcut("@within(org.springframework.stereotype.Service)")
     private void inService() {}
 
+    //Pointcut for public operations inside @Service class
     @Pointcut("anyPublicOperation() && inService()")
     private void servicePublicOperation() {}
 
@@ -32,7 +36,7 @@ public class LoggingAspect {
         try{
             proceed = proceedingJoinPoint.proceed();
         }catch (Exception e){
-            log.severe("Function : " + proceedingJoinPoint.getSignature() + " threw [ " + e.toString() + " ] for arguments " + Arrays.toString(proceedingJoinPoint.getArgs()) + " and uuid " + uuid);
+            log.error("Function : " + proceedingJoinPoint.getSignature() + " threw [ " + e.toString() + " ] for arguments " + Arrays.toString(proceedingJoinPoint.getArgs()) + " and uuid " + uuid);
             throw e;
         }
 

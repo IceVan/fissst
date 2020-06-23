@@ -20,11 +20,25 @@ public class BrandListingServiceImpl implements BrandListingService {
         this.brandDao = brandDao;
     }
 
+    /**
+     * Get Brand entity from DB based on brand name
+     * @param name  Brand name
+     * @return      Brand entity with given name
+     */
+
     @Override
     public Brand getBrandInfo(String name) {
         if(name == null || name.isEmpty()) throw new IllegalArgumentException("Brand name should not be empty.");
         return brandDao.getBrandByName(name);
     }
+
+    /**
+     * Get Model entity from DB with matching Brand and Model names
+     *
+     * @param brand Brand name
+     * @param model Model name
+     * @return      Model entity of Brand with given name.
+     */
 
     @Override
     public Model getModelByBrandAndModelName(String brand, String model) {

@@ -23,6 +23,11 @@ public class ServicingOperationsServiceImpl implements ServicingOperationsServic
         this.partsListingService = partsListingService;
     }
 
+    /**
+     * Creating and adding service action to given part.
+     * @param serviceActionDTO  Data transfer object containing service action and partId
+     * @return                  Created service action
+     */
     @Transactional
     @Override
     public ServiceAction createAndAddActionToPart(AddServiceActionDTO serviceActionDTO) {

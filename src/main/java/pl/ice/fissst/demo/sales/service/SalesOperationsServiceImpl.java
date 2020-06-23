@@ -23,6 +23,11 @@ public class SalesOperationsServiceImpl implements SalesOperationsService {
         this.partsListingService = partsListingService;
     }
 
+    /**
+     * Remove all sales pitches from part with given ID
+     * @param id    Part id
+     * @return      True if action was successful.
+     */
     @Transactional
     @Override
     public boolean removeSalesPitchesFromPartWithId(long id) {

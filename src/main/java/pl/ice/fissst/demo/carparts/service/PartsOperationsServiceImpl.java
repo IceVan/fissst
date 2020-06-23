@@ -19,6 +19,13 @@ public class PartsOperationsServiceImpl implements PartsOperationsService {
         this.partDao = partDao;
     }
 
+    /**
+     *  Change part type description for a part with given id.
+     * @param id            Part id
+     * @param description   Description
+     * @return              Part type with changed data
+     */
+
     @Transactional
     @Override
     public PartInfo changePartDescriptionWithId(long id, String description) {

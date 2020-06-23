@@ -5,10 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import pl.ice.fissst.demo.model.entity.Part;
 import pl.ice.fissst.demo.stock.service.StockListingService;
 
@@ -26,12 +23,7 @@ public class StockController {
         this.stockListingService = stockListingService;
     }
 
-    /**
-     *  Checks whether particular part is in stock.
-     *
-     * @param partId    Id of part you want to check availability. Must positive.
-     * @return      JSON representation of Part with availability, price and delivery time.
-     */
+    @CrossOrigin()
     @GetMapping("/checkPart")
     @ApiOperation(value = "Check if part with provided id is in stock.")
     public Part checkPartAvailability(@RequestParam(name = "partId", required = true) @ApiParam(name = "partId", value = "ID of the part we want to check stock for.") @Min(1) long partId){

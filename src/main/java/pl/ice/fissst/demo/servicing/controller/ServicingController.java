@@ -32,6 +32,7 @@ public class ServicingController {
         this.servicingOperationsService = servicingOperationsService;
     }
 
+    @CrossOrigin()
     @GetMapping("/getActions")
     @ApiOperation(value = "Get all servicing actions between dates.")
     public List<ServiceAction> getActions(@RequestParam(name = "servicedFrom", required = true) @ApiParam(name = "servicedFrom", value = "Date from when we want to list actions.") Date dateFrom,
@@ -39,6 +40,7 @@ public class ServicingController {
         return servicingListingService.getServiceActionInGivenPeriod(dateFrom, dateUntil);
     }
 
+    @CrossOrigin()
     @GetMapping("/getActionsForPart")
     @ApiOperation(value = "Get all servicing actions between dates for given part id.")
     public List<ServiceAction> getActionsForPart(@RequestParam(name = "partId", required = true) @Min(1) @ApiParam(name = "partId", value = "Id of the part we want to check service actions for.") long partId,
@@ -47,6 +49,7 @@ public class ServicingController {
         return servicingListingService.getServiceActionForPartInGivenPeriod(partId, dateFrom, dateUntil);
     }
 
+    @CrossOrigin()
     @PostMapping("/addServiceAction")
     @ResponseStatus(HttpStatus.CREATED)
     @ApiOperation(value = "Add service action fot part.")

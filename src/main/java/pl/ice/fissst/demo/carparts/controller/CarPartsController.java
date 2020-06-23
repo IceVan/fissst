@@ -14,7 +14,6 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import java.util.List;
 
-@Log
 @Validated
 @RestController
 @RequestMapping("/parts")
@@ -29,6 +28,7 @@ public class CarPartsController {
         this.partsOperationsService = partsOperationsService;
     }
 
+    @CrossOrigin()
     @GetMapping("/getParts")
     @ApiOperation(value = "Get all parts for brand and model with filter based on part name or description. ")
     public List<PartInfo> getAllPartsForBrandAndModel(@RequestParam(name = "brandName") @ApiParam(name = "brandName", value = "Brand name.") @NotBlank(message = "Brand name cannot be empty.") String brand,
@@ -40,6 +40,7 @@ public class CarPartsController {
         return partsListingService.getAllPartsForBrandAndModelFilteredByNameAndDescription(brand,model,partName,partDescription);
     }
 
+    @CrossOrigin()
     @PatchMapping("/changeDescription")
     @ApiOperation(value = "Change description of part with provided ID.")
     public PartInfo changePartInfoDescription(@RequestParam(name = "partId", required = true) @ApiParam(name = "partId", value = "ID of a part for which we want to change description.") @Min(value = 1, message = "PartId must be positive.") long partId,

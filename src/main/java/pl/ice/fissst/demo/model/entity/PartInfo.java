@@ -1,6 +1,7 @@
 package pl.ice.fissst.demo.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
 import org.hibernate.annotations.Cascade;
@@ -14,17 +15,21 @@ import java.util.List;
 @Entity(name = "tpr_part_info")
 public class PartInfo {
 
+    @ApiModelProperty(notes = "Part type ID")
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
+    @ApiModelProperty(notes = "Part name")
     @Column(unique = true)
     private String name;
 
+    @ApiModelProperty(notes = "Part description")
     @Lob
     @Type(type = "org.hibernate.type.TextType")
     private String description;
 
+    @ApiModelProperty(notes = "Model reference")
     @JsonIgnore
     @ToString.Exclude
     @ManyToOne(fetch = FetchType.LAZY)
@@ -32,6 +37,7 @@ public class PartInfo {
     private Model model;
 
 
+    @ApiModelProperty(notes = "List of parts")
     @OneToMany(mappedBy = "partInfo")
     @Cascade(org.hibernate.annotations.CascadeType.ALL)
     private List<Part> parts = new LinkedList<>();
